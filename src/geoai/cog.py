@@ -13,6 +13,11 @@ GDAL_HTTP = {
     "GDAL_HTTP_MAX_RETRY": "3",
     "GDAL_HTTP_RETRY_DELAY": "1",
     "AWS_NO_SIGN_REQUEST": "YES",
+    # default 16 KB range chunks made a ~1 MB COG tile cost ~60 sequential round trips
+    "CPL_VSIL_CURL_CHUNK_SIZE": "1048576",
+    "GDAL_INGESTED_BYTES_AT_OPEN": "65536",
+    "GDAL_HTTP_MERGE_CONSECUTIVE_RANGES": "YES",
+    "GDAL_HTTP_MULTIPLEX": "YES",
 }
 
 # Sentinel-2 SCL classes treated as clear land/water observations.

@@ -1,0 +1,263 @@
+{
+  "rows_total": 265593,
+  "rows_by_window": {
+    "W1": 89846,
+    "W2": 88102,
+    "W3": 87645
+  },
+  "pixels_by_class_and_window": {
+    "W1": {
+      "Tree cover": 67460,
+      "Shrubland": 24,
+      "Grassland": 4758,
+      "Cropland": 17057,
+      "Built-up": 508,
+      "Bare/sparse vegetation": 39
+    },
+    "W2": {
+      "Tree cover": 1122,
+      "Grassland": 1309,
+      "Cropland": 85444,
+      "Built-up": 221,
+      "Bare/sparse vegetation": 6
+    },
+    "W3": {
+      "Tree cover": 27669,
+      "Grassland": 11643,
+      "Cropland": 17145,
+      "Built-up": 3669,
+      "Bare/sparse vegetation": 4438,
+      "Permanent water bodies": 21010,
+      "Herbaceous wetland": 2071
+    }
+  },
+  "pixels_by_class_total": {
+    "Tree cover": 96251,
+    "Shrubland": 24,
+    "Grassland": 17710,
+    "Cropland": 119646,
+    "Built-up": 4398,
+    "Bare/sparse vegetation": 4483,
+    "Permanent water bodies": 21010,
+    "Herbaceous wetland": 2071
+  },
+  "classes_absent_in_window_valid_pixels": {
+    "W1": [
+      "Herbaceous wetland",
+      "Permanent water bodies"
+    ],
+    "W2": [
+      "Herbaceous wetland",
+      "Permanent water bodies",
+      "Shrubland"
+    ],
+    "W3": [
+      "Shrubland"
+    ]
+  },
+  "worldcover_classes_absent_from_all_windows": [
+    "Mangroves",
+    "Moss and lichen",
+    "Snow and ice"
+  ],
+  "blocks_500m_per_window": {
+    "W1": 36,
+    "W2": 36,
+    "W3": 36
+  },
+  "leave_one_window_out_evaluable_classes_min100": {
+    "W1": [
+      "Built-up",
+      "Cropland",
+      "Grassland",
+      "Tree cover"
+    ],
+    "W2": [
+      "Built-up",
+      "Cropland",
+      "Grassland",
+      "Tree cover"
+    ],
+    "W3": [
+      "Built-up",
+      "Cropland",
+      "Grassland",
+      "Tree cover"
+    ]
+  },
+  "availability_table": [
+    {
+      "held_out": "W1",
+      "label_code": 10,
+      "train_pixels": 28791,
+      "test_pixels": 67460,
+      "evaluable": true
+    },
+    {
+      "held_out": "W1",
+      "label_code": 20,
+      "train_pixels": 0,
+      "test_pixels": 24,
+      "evaluable": false
+    },
+    {
+      "held_out": "W1",
+      "label_code": 30,
+      "train_pixels": 12952,
+      "test_pixels": 4758,
+      "evaluable": true
+    },
+    {
+      "held_out": "W1",
+      "label_code": 40,
+      "train_pixels": 102589,
+      "test_pixels": 17057,
+      "evaluable": true
+    },
+    {
+      "held_out": "W1",
+      "label_code": 50,
+      "train_pixels": 3890,
+      "test_pixels": 508,
+      "evaluable": true
+    },
+    {
+      "held_out": "W1",
+      "label_code": 60,
+      "train_pixels": 4444,
+      "test_pixels": 39,
+      "evaluable": false
+    },
+    {
+      "held_out": "W1",
+      "label_code": 80,
+      "train_pixels": 21010,
+      "test_pixels": 0,
+      "evaluable": false
+    },
+    {
+      "held_out": "W1",
+      "label_code": 90,
+      "train_pixels": 2071,
+      "test_pixels": 0,
+      "evaluable": false
+    },
+    {
+      "held_out": "W2",
+      "label_code": 10,
+      "train_pixels": 95129,
+      "test_pixels": 1122,
+      "evaluable": true
+    },
+    {
+      "held_out": "W2",
+      "label_code": 20,
+      "train_pixels": 24,
+      "test_pixels": 0,
+      "evaluable": false
+    },
+    {
+      "held_out": "W2",
+      "label_code": 30,
+      "train_pixels": 16401,
+      "test_pixels": 1309,
+      "evaluable": true
+    },
+    {
+      "held_out": "W2",
+      "label_code": 40,
+      "train_pixels": 34202,
+      "test_pixels": 85444,
+      "evaluable": true
+    },
+    {
+      "held_out": "W2",
+      "label_code": 50,
+      "train_pixels": 4177,
+      "test_pixels": 221,
+      "evaluable": true
+    },
+    {
+      "held_out": "W2",
+      "label_code": 60,
+      "train_pixels": 4477,
+      "test_pixels": 6,
+      "evaluable": false
+    },
+    {
+      "held_out": "W2",
+      "label_code": 80,
+      "train_pixels": 21010,
+      "test_pixels": 0,
+      "evaluable": false
+    },
+    {
+      "held_out": "W2",
+      "label_code": 90,
+      "train_pixels": 2071,
+      "test_pixels": 0,
+      "evaluable": false
+    },
+    {
+      "held_out": "W3",
+      "label_code": 10,
+      "train_pixels": 68582,
+      "test_pixels": 27669,
+      "evaluable": true
+    },
+    {
+      "held_out": "W3",
+      "label_code": 20,
+      "train_pixels": 24,
+      "test_pixels": 0,
+      "evaluable": false
+    },
+    {
+      "held_out": "W3",
+      "label_code": 30,
+      "train_pixels": 6067,
+      "test_pixels": 11643,
+      "evaluable": true
+    },
+    {
+      "held_out": "W3",
+      "label_code": 40,
+      "train_pixels": 102501,
+      "test_pixels": 17145,
+      "evaluable": true
+    },
+    {
+      "held_out": "W3",
+      "label_code": 50,
+      "train_pixels": 729,
+      "test_pixels": 3669,
+      "evaluable": true
+    },
+    {
+      "held_out": "W3",
+      "label_code": 60,
+      "train_pixels": 45,
+      "test_pixels": 4438,
+      "evaluable": false
+    },
+    {
+      "held_out": "W3",
+      "label_code": 80,
+      "train_pixels": 0,
+      "test_pixels": 21010,
+      "evaluable": false
+    },
+    {
+      "held_out": "W3",
+      "label_code": 90,
+      "train_pixels": 0,
+      "test_pixels": 2071,
+      "evaluable": false
+    }
+  ],
+  "composite_valid_pct": {
+    "W1": 99.829,
+    "W2": 97.891,
+    "W3": 97.383
+  }
+}

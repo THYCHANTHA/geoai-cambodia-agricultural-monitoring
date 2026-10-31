@@ -1,0 +1,497 @@
+{
+  "stac": "https://earth-search.aws.element84.com/v1",
+  "window": "2021-01-01/2021-03-31",
+  "windows": {
+    "W1": {
+      "candidates": [
+        {
+          "id": "S2B_48PWU_20210105_0_L2A",
+          "date": "2021-01-05",
+          "baseline": "02.14",
+          "scene_cloud_pct": 11.47,
+          "aoi_clear_pct": 98.32,
+          "seconds": 3.6
+        },
+        {
+          "id": "S2A_48PWU_20210110_0_L2A",
+          "date": "2021-01-10",
+          "baseline": "02.14",
+          "scene_cloud_pct": 15.8,
+          "aoi_clear_pct": 98.78,
+          "seconds": 1.4
+        },
+        {
+          "id": "S2B_48PWU_20210115_0_L2A",
+          "date": "2021-01-15",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.42,
+          "aoi_clear_pct": 97.49,
+          "seconds": 1.7
+        },
+        {
+          "id": "S2A_48PWU_20210120_0_L2A",
+          "date": "2021-01-20",
+          "baseline": "02.14",
+          "scene_cloud_pct": 81.53,
+          "aoi_clear_pct": 3.23,
+          "seconds": 2.4
+        },
+        {
+          "id": "S2B_48PWU_20210125_0_L2A",
+          "date": "2021-01-25",
+          "baseline": "02.14",
+          "scene_cloud_pct": 44.79,
+          "aoi_clear_pct": 6.65,
+          "seconds": 2.6
+        },
+        {
+          "id": "S2A_48PWU_20210130_0_L2A",
+          "date": "2021-01-30",
+          "baseline": "02.14",
+          "scene_cloud_pct": 22.38,
+          "aoi_clear_pct": 98.82,
+          "seconds": 2.1
+        },
+        {
+          "id": "S2B_48PWU_20210204_1_L2A",
+          "date": "2021-02-04",
+          "baseline": "02.14",
+          "scene_cloud_pct": 58.17,
+          "aoi_clear_pct": 94.4,
+          "seconds": 2.4
+        },
+        {
+          "id": "S2A_48PWU_20210209_0_L2A",
+          "date": "2021-02-09",
+          "baseline": "02.14",
+          "scene_cloud_pct": 88.02,
+          "aoi_clear_pct": 0.0,
+          "seconds": 1.6
+        },
+        {
+          "id": "S2B_48PWU_20210214_0_L2A",
+          "date": "2021-02-14",
+          "baseline": "02.14",
+          "scene_cloud_pct": 40.0,
+          "aoi_clear_pct": 31.01,
+          "seconds": 4.2
+        },
+        {
+          "id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.08,
+          "aoi_clear_pct": 97.07,
+          "seconds": 2.5
+        },
+        {
+          "id": "S2B_48PWU_20210224_0_L2A",
+          "date": "2021-02-24",
+          "baseline": "02.14",
+          "scene_cloud_pct": 47.32,
+          "aoi_clear_pct": 27.29,
+          "seconds": 2.8
+        },
+        {
+          "id": "S2A_48PWU_20210301_0_L2A",
+          "date": "2021-03-01",
+          "baseline": "02.14",
+          "scene_cloud_pct": 23.79,
+          "aoi_clear_pct": 65.03,
+          "seconds": 2.8
+        },
+        {
+          "id": "S2B_48PWU_20210306_0_L2A",
+          "date": "2021-03-06",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.09,
+          "aoi_clear_pct": 93.48,
+          "seconds": 2.6
+        },
+        {
+          "id": "S2A_48PWU_20210311_0_L2A",
+          "date": "2021-03-11",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.52,
+          "aoi_clear_pct": 93.05,
+          "seconds": 4.8
+        },
+        {
+          "id": "S2B_48PWU_20210316_0_L2A",
+          "date": "2021-03-16",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.63,
+          "aoi_clear_pct": 83.73,
+          "seconds": 2.9
+        },
+        {
+          "id": "S2A_48PWU_20210321_0_L2A",
+          "date": "2021-03-21",
+          "baseline": "02.14",
+          "scene_cloud_pct": 39.37,
+          "aoi_clear_pct": 8.35,
+          "seconds": 2.6
+        },
+        {
+          "id": "S2B_48PWU_20210326_0_L2A",
+          "date": "2021-03-26",
+          "baseline": "02.14",
+          "scene_cloud_pct": 24.14,
+          "aoi_clear_pct": 33.42,
+          "seconds": 2.7
+        },
+        {
+          "id": "S2A_48PWU_20210331_0_L2A",
+          "date": "2021-03-31",
+          "baseline": "03.00",
+          "scene_cloud_pct": 2.61,
+          "aoi_clear_pct": 87.2,
+          "seconds": 3.7
+        }
+      ],
+      "selected": [
+        {
+          "id": "S2A_48PWU_20210219_1_L2A",
+          "date": "2021-02-19",
+          "baseline": "05.00",
+          "aoi_clear_pct": 97.07,
+          "note": "Phase 2 scene reused (cached)"
+        },
+        {
+          "id": "S2B_48PWU_20210105_0_L2A",
+          "date": "2021-01-05",
+          "baseline": "02.14",
+          "aoi_clear_pct": 98.32
+        }
+      ],
+      "union_clear_pct_selected": 99.46
+    },
+    "W2": {
+      "candidates": [
+        {
+          "id": "S2B_48PWU_20210105_0_L2A",
+          "date": "2021-01-05",
+          "baseline": "02.14",
+          "scene_cloud_pct": 11.47,
+          "aoi_clear_pct": 95.11,
+          "seconds": 4.2
+        },
+        {
+          "id": "S2A_48PWU_20210110_0_L2A",
+          "date": "2021-01-10",
+          "baseline": "02.14",
+          "scene_cloud_pct": 15.8,
+          "aoi_clear_pct": 95.78,
+          "seconds": 3.7
+        },
+        {
+          "id": "S2B_48PWU_20210115_0_L2A",
+          "date": "2021-01-15",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.42,
+          "aoi_clear_pct": 77.55,
+          "seconds": 2.2
+        },
+        {
+          "id": "S2A_48PWU_20210120_0_L2A",
+          "date": "2021-01-20",
+          "baseline": "02.14",
+          "scene_cloud_pct": 81.53,
+          "aoi_clear_pct": 0.0,
+          "seconds": 0.8
+        },
+        {
+          "id": "S2B_48PWU_20210125_0_L2A",
+          "date": "2021-01-25",
+          "baseline": "02.14",
+          "scene_cloud_pct": 44.79,
+          "aoi_clear_pct": 0.63,
+          "seconds": 1.7
+        },
+        {
+          "id": "S2A_48PWU_20210130_0_L2A",
+          "date": "2021-01-30",
+          "baseline": "02.14",
+          "scene_cloud_pct": 22.38,
+          "aoi_clear_pct": 93.12,
+          "seconds": 1.7
+        },
+        {
+          "id": "S2B_48PWU_20210204_1_L2A",
+          "date": "2021-02-04",
+          "baseline": "02.14",
+          "scene_cloud_pct": 58.17,
+          "aoi_clear_pct": 87.57,
+          "seconds": 2.1
+        },
+        {
+          "id": "S2A_48PWU_20210209_0_L2A",
+          "date": "2021-02-09",
+          "baseline": "02.14",
+          "scene_cloud_pct": 88.02,
+          "aoi_clear_pct": 0.0,
+          "seconds": 1.4
+        },
+        {
+          "id": "S2B_48PWU_20210214_0_L2A",
+          "date": "2021-02-14",
+          "baseline": "02.14",
+          "scene_cloud_pct": 40.0,
+          "aoi_clear_pct": 10.64,
+          "seconds": 4.8
+        },
+        {
+          "id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.08,
+          "aoi_clear_pct": 95.54,
+          "seconds": 3.1
+        },
+        {
+          "id": "S2B_48PWU_20210224_0_L2A",
+          "date": "2021-02-24",
+          "baseline": "02.14",
+          "scene_cloud_pct": 47.32,
+          "aoi_clear_pct": 23.26,
+          "seconds": 4.6
+        },
+        {
+          "id": "S2A_48PWU_20210301_0_L2A",
+          "date": "2021-03-01",
+          "baseline": "02.14",
+          "scene_cloud_pct": 23.79,
+          "aoi_clear_pct": 55.25,
+          "seconds": 2.2
+        },
+        {
+          "id": "S2B_48PWU_20210306_0_L2A",
+          "date": "2021-03-06",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.09,
+          "aoi_clear_pct": 87.33,
+          "seconds": 1.5
+        },
+        {
+          "id": "S2A_48PWU_20210311_0_L2A",
+          "date": "2021-03-11",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.52,
+          "aoi_clear_pct": 85.88,
+          "seconds": 1.5
+        },
+        {
+          "id": "S2B_48PWU_20210316_0_L2A",
+          "date": "2021-03-16",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.63,
+          "aoi_clear_pct": 36.56,
+          "seconds": 2.9
+        },
+        {
+          "id": "S2A_48PWU_20210321_0_L2A",
+          "date": "2021-03-21",
+          "baseline": "02.14",
+          "scene_cloud_pct": 39.37,
+          "aoi_clear_pct": 3.31,
+          "seconds": 2.6
+        },
+        {
+          "id": "S2B_48PWU_20210326_0_L2A",
+          "date": "2021-03-26",
+          "baseline": "02.14",
+          "scene_cloud_pct": 24.14,
+          "aoi_clear_pct": 68.68,
+          "seconds": 3.6
+        },
+        {
+          "id": "S2A_48PWU_20210331_0_L2A",
+          "date": "2021-03-31",
+          "baseline": "03.00",
+          "scene_cloud_pct": 2.61,
+          "aoi_clear_pct": 65.68,
+          "seconds": 2.6
+        }
+      ],
+      "selected": [
+        {
+          "id": "S2A_48PWU_20210110_0_L2A",
+          "date": "2021-01-10",
+          "baseline": "02.14",
+          "aoi_clear_pct": 95.78
+        },
+        {
+          "id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "aoi_clear_pct": 95.54
+        }
+      ],
+      "union_clear_pct_selected": 97.89
+    },
+    "W3": {
+      "candidates": [
+        {
+          "id": "S2B_48PWU_20210105_0_L2A",
+          "date": "2021-01-05",
+          "baseline": "02.14",
+          "scene_cloud_pct": 11.47,
+          "aoi_clear_pct": 89.36,
+          "seconds": 2.0
+        },
+        {
+          "id": "S2A_48PWU_20210110_0_L2A",
+          "date": "2021-01-10",
+          "baseline": "02.14",
+          "scene_cloud_pct": 15.8,
+          "aoi_clear_pct": 60.8,
+          "seconds": 1.6
+        },
+        {
+          "id": "S2B_48PWU_20210115_0_L2A",
+          "date": "2021-01-15",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.42,
+          "aoi_clear_pct": 92.79,
+          "seconds": 1.4
+        },
+        {
+          "id": "S2A_48PWU_20210120_0_L2A",
+          "date": "2021-01-20",
+          "baseline": "02.14",
+          "scene_cloud_pct": 81.53,
+          "aoi_clear_pct": 85.39,
+          "seconds": 1.2
+        },
+        {
+          "id": "S2B_48PWU_20210125_0_L2A",
+          "date": "2021-01-25",
+          "baseline": "02.14",
+          "scene_cloud_pct": 44.79,
+          "aoi_clear_pct": 63.31,
+          "seconds": 1.4
+        },
+        {
+          "id": "S2A_48PWU_20210130_0_L2A",
+          "date": "2021-01-30",
+          "baseline": "02.14",
+          "scene_cloud_pct": 22.38,
+          "aoi_clear_pct": 77.95,
+          "seconds": 1.8
+        },
+        {
+          "id": "S2B_48PWU_20210204_1_L2A",
+          "date": "2021-02-04",
+          "baseline": "02.14",
+          "scene_cloud_pct": 58.17,
+          "aoi_clear_pct": 0.0,
+          "seconds": 0.7
+        },
+        {
+          "id": "S2A_48PWU_20210209_0_L2A",
+          "date": "2021-02-09",
+          "baseline": "02.14",
+          "scene_cloud_pct": 88.02,
+          "aoi_clear_pct": 6.01,
+          "seconds": 1.2
+        },
+        {
+          "id": "S2B_48PWU_20210214_0_L2A",
+          "date": "2021-02-14",
+          "baseline": "02.14",
+          "scene_cloud_pct": 40.0,
+          "aoi_clear_pct": 1.66,
+          "seconds": 2.3
+        },
+        {
+          "id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.08,
+          "aoi_clear_pct": 92.42,
+          "seconds": 1.1
+        },
+        {
+          "id": "S2B_48PWU_20210224_0_L2A",
+          "date": "2021-02-24",
+          "baseline": "02.14",
+          "scene_cloud_pct": 47.32,
+          "aoi_clear_pct": 16.09,
+          "seconds": 1.9
+        },
+        {
+          "id": "S2A_48PWU_20210301_0_L2A",
+          "date": "2021-03-01",
+          "baseline": "02.14",
+          "scene_cloud_pct": 23.79,
+          "aoi_clear_pct": 68.87,
+          "seconds": 2.5
+        },
+        {
+          "id": "S2B_48PWU_20210306_0_L2A",
+          "date": "2021-03-06",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.09,
+          "aoi_clear_pct": 92.35,
+          "seconds": 2.3
+        },
+        {
+          "id": "S2A_48PWU_20210311_0_L2A",
+          "date": "2021-03-11",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.52,
+          "aoi_clear_pct": 92.74,
+          "seconds": 1.7
+        },
+        {
+          "id": "S2B_48PWU_20210316_0_L2A",
+          "date": "2021-03-16",
+          "baseline": "02.14",
+          "scene_cloud_pct": 0.63,
+          "aoi_clear_pct": 78.79,
+          "seconds": 1.6
+        },
+        {
+          "id": "S2A_48PWU_20210321_0_L2A",
+          "date": "2021-03-21",
+          "baseline": "02.14",
+          "scene_cloud_pct": 39.37,
+          "aoi_clear_pct": 42.19,
+          "seconds": 1.7
+        },
+        {
+          "id": "S2B_48PWU_20210326_0_L2A",
+          "date": "2021-03-26",
+          "baseline": "02.14",
+          "scene_cloud_pct": 24.14,
+          "aoi_clear_pct": 86.74,
+          "seconds": 1.7
+        },
+        {
+          "id": "S2A_48PWU_20210331_0_L2A",
+          "date": "2021-03-31",
+          "baseline": "03.00",
+          "scene_cloud_pct": 2.61,
+          "aoi_clear_pct": 82.25,
+          "seconds": 1.7
+        }
+      ],
+      "selected": [
+        {
+          "id": "S2B_48PWU_20210115_0_L2A",
+          "date": "2021-01-15",
+          "baseline": "02.14",
+          "aoi_clear_pct": 92.79
+        },
+        {
+          "id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "aoi_clear_pct": 92.42
+        }
+      ],
+      "union_clear_pct_selected": 97.41
+    }
+  },
+  "network_bytes_received_during_screening": 4324699
+}

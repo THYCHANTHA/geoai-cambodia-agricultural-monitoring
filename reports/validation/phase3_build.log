@@ -1,0 +1,13 @@
+W1 scenes: ['S2A_48PWU_20210219_1_L2A', 'S2B_48PWU_20210105_0_L2A']
+scripts/phase3_build_features.py:109: RuntimeWarning: All-NaN slice encountered
+  comp = np.nanmedian(R, axis=0)  # masked per-pixel median over the available observations
+W1 rows 89846 valid% 99.829
+W2 scenes: ['S2A_48PWU_20210110_0_L2A', 'S2A_48PWU_20210219_0_L2A']
+scripts/phase3_build_features.py:109: RuntimeWarning: All-NaN slice encountered
+  comp = np.nanmedian(R, axis=0)  # masked per-pixel median over the available observations
+W2 rows 88102 valid% 97.891
+W3 scenes: ['S2B_48PWU_20210115_0_L2A', 'S2A_48PWU_20210219_0_L2A']
+scripts/phase3_build_features.py:109: RuntimeWarning: All-NaN slice encountered
+  comp = np.nanmedian(R, axis=0)  # masked per-pixel median over the available observations
+W3 rows 87645 valid% 97.383
+done {"reads_used": 6, "read_budget": 6, "runtime_s": 741.9, "network_mb_upper_bound": 107.3, "d_free_gb_before": 7.65, "d_free_gb_after": 7.63, "processed_outputs_mb": 24.52}

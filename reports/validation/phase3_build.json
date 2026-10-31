@@ -1,0 +1,360 @@
+{
+  "reads_used": 6,
+  "read_budget": 6,
+  "runtime_s": 741.9,
+  "network_mb_upper_bound": 107.3,
+  "d_free_gb_before": 7.65,
+  "d_free_gb_after": 7.63,
+  "processed_outputs_mb": 24.52,
+  "windows": {
+    "W1": {
+      "window": "W1",
+      "scenes": [
+        {
+          "scene_id": "S2A_48PWU_20210219_1_L2A",
+          "date": "2021-02-19",
+          "baseline": "05.00",
+          "boa_offset_applied": true,
+          "asset_offset": -0.1,
+          "scene_cloud_pct": 0.000601,
+          "from_cache": true,
+          "seconds": 0.0,
+          "net_mb_upper_bound": 0.0,
+          "cache_file": "cache_kc_b_S2A_48PWU_20210219_1_L2A.npz",
+          "aoi_clear_pct_after_mask": 99.56,
+          "scl_class_pct": {
+            "4": 82.094,
+            "5": 17.47,
+            "7": 0.436
+          }
+        },
+        {
+          "scene_id": "S2B_48PWU_20210105_0_L2A",
+          "date": "2021-01-05",
+          "baseline": "02.14",
+          "boa_offset_applied": false,
+          "asset_offset": 0,
+          "scene_cloud_pct": 11.469101,
+          "from_cache": true,
+          "seconds": 0.0,
+          "net_mb_upper_bound": 0.0,
+          "cache_file": "cache_W1_S2B_48PWU_20210105_0_L2A.npz",
+          "aoi_clear_pct_after_mask": 98.3,
+          "scl_class_pct": {
+            "2": 0.9,
+            "3": 0.018,
+            "4": 88.494,
+            "5": 9.828,
+            "7": 0.76
+          }
+        }
+      ],
+      "offset_decisions": [
+        {
+          "scene_id": "S2A_48PWU_20210219_1_L2A",
+          "processing_baseline": "05.00",
+          "earthsearch_boa_offset_applied": true,
+          "asset_offset_metadata": -0.1,
+          "dn_clear_red": {
+            "n": 89608,
+            "p01": 284.0,
+            "p05": 337.0,
+            "p50": 530.0,
+            "fraction_below_1000": 0.8616
+          },
+          "dn_offset_subtracted": 0,
+          "asset_offset_applied": false,
+          "metadata_conflict": true,
+          "basis": "5th percentile of clear red DN < 800: no +1000 offset in values"
+        },
+        {
+          "scene_id": "S2B_48PWU_20210105_0_L2A",
+          "processing_baseline": "02.14",
+          "earthsearch_boa_offset_applied": false,
+          "asset_offset_metadata": 0,
+          "dn_clear_red": {
+            "n": 88490,
+            "p01": 110.0,
+            "p05": 151.0,
+            "p50": 409.0,
+            "fraction_below_1000": 0.8927
+          },
+          "dn_offset_subtracted": 0,
+          "asset_offset_applied": false,
+          "metadata_conflict": false,
+          "basis": "5th percentile of clear red DN < 800: no +1000 offset in values"
+        }
+      ],
+      "composite_method": "per-pixel median of masked reflectance (2 scenes -> mean); SCL clear=(4, 5, 6); cloud/shadow/cirrus (3, 8, 9, 10) dilated 2 px (10 m)",
+      "n_obs_pct": {
+        "0": 0.171,
+        "1": 1.798,
+        "2": 98.031
+      },
+      "composite_valid_pct": 99.829,
+      "worldcover_tiles": [
+        "N12E105"
+      ],
+      "worldcover_unlabelled_pct": 0.0,
+      "temporal_consistency": {
+        "pixels_clear_in_both": 88228,
+        "median_abs_ndvi_diff": 0.0637,
+        "p95_abs_ndvi_diff": 0.3325,
+        "ndvi_pearson_r": 0.7344
+      },
+      "feature_table_rows": 89846,
+      "raster_bytes": 2838523,
+      "index_ranges": {
+        "NDVI": [
+          -0.126,
+          0.892
+        ],
+        "EVI": [
+          -0.039,
+          0.735
+        ],
+        "NDWI": [
+          -0.792,
+          0.186
+        ],
+        "NDBI": [
+          -0.464,
+          0.402
+        ]
+      }
+    },
+    "W2": {
+      "window": "W2",
+      "scenes": [
+        {
+          "scene_id": "S2A_48PWU_20210110_0_L2A",
+          "date": "2021-01-10",
+          "baseline": "02.14",
+          "boa_offset_applied": false,
+          "asset_offset": 0,
+          "scene_cloud_pct": 15.799809,
+          "from_cache": false,
+          "seconds": 203.1,
+          "net_mb_upper_bound": 29.03,
+          "aoi_clear_pct_after_mask": 95.78,
+          "scl_class_pct": {
+            "2": 3.369,
+            "4": 4.26,
+            "5": 91.518,
+            "7": 0.853
+          }
+        },
+        {
+          "scene_id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "boa_offset_applied": false,
+          "asset_offset": 0,
+          "scene_cloud_pct": 0.076486,
+          "from_cache": false,
+          "seconds": 183.6,
+          "net_mb_upper_bound": 26.87,
+          "aoi_clear_pct_after_mask": 95.54,
+          "scl_class_pct": {
+            "2": 3.118,
+            "4": 4.287,
+            "5": 91.253,
+            "7": 1.342
+          }
+        }
+      ],
+      "offset_decisions": [
+        {
+          "scene_id": "S2A_48PWU_20210110_0_L2A",
+          "processing_baseline": "02.14",
+          "earthsearch_boa_offset_applied": false,
+          "asset_offset_metadata": 0,
+          "dn_clear_red": {
+            "n": 86200,
+            "p01": 541.0,
+            "p05": 642.0,
+            "p50": 1064.0,
+            "fraction_below_1000": 0.4373
+          },
+          "dn_offset_subtracted": 0,
+          "asset_offset_applied": false,
+          "metadata_conflict": false,
+          "basis": "5th percentile of clear red DN < 800: no +1000 offset in values"
+        },
+        {
+          "scene_id": "S2A_48PWU_20210219_0_L2A",
+          "processing_baseline": "02.14",
+          "earthsearch_boa_offset_applied": false,
+          "asset_offset_metadata": 0,
+          "dn_clear_red": {
+            "n": 85986,
+            "p01": 629.0,
+            "p05": 771.0,
+            "p50": 1032.0,
+            "fraction_below_1000": 0.435
+          },
+          "dn_offset_subtracted": 0,
+          "asset_offset_applied": false,
+          "metadata_conflict": false,
+          "basis": "5th percentile of clear red DN < 800: no +1000 offset in values"
+        }
+      ],
+      "composite_method": "per-pixel median of masked reflectance (2 scenes -> mean); SCL clear=(4, 5, 6); cloud/shadow/cirrus (3, 8, 9, 10) dilated 2 px (10 m)",
+      "n_obs_pct": {
+        "0": 2.109,
+        "1": 4.464,
+        "2": 93.427
+      },
+      "composite_valid_pct": 97.891,
+      "worldcover_tiles": [
+        "N12E105"
+      ],
+      "worldcover_unlabelled_pct": 0.0,
+      "temporal_consistency": {
+        "pixels_clear_in_both": 84084,
+        "median_abs_ndvi_diff": 0.0255,
+        "p95_abs_ndvi_diff": 0.0837,
+        "ndvi_pearson_r": 0.9054
+      },
+      "feature_table_rows": 88102,
+      "raster_bytes": 2788289,
+      "index_ranges": {
+        "NDVI": [
+          -0.047,
+          0.789
+        ],
+        "EVI": [
+          -0.03,
+          0.635
+        ],
+        "NDWI": [
+          -0.701,
+          -0.026
+        ],
+        "NDBI": [
+          -0.499,
+          0.407
+        ]
+      }
+    },
+    "W3": {
+      "window": "W3",
+      "scenes": [
+        {
+          "scene_id": "S2B_48PWU_20210115_0_L2A",
+          "date": "2021-01-15",
+          "baseline": "02.14",
+          "boa_offset_applied": false,
+          "asset_offset": 0,
+          "scene_cloud_pct": 0.420918,
+          "from_cache": false,
+          "seconds": 175.2,
+          "net_mb_upper_bound": 21.2,
+          "aoi_clear_pct_after_mask": 92.74,
+          "scl_class_pct": {
+            "2": 3.204,
+            "4": 46.627,
+            "5": 28.702,
+            "6": 17.464,
+            "7": 3.989,
+            "8": 0.013
+          }
+        },
+        {
+          "scene_id": "S2A_48PWU_20210219_0_L2A",
+          "date": "2021-02-19",
+          "baseline": "02.14",
+          "boa_offset_applied": false,
+          "asset_offset": 0,
+          "scene_cloud_pct": 0.076486,
+          "from_cache": false,
+          "seconds": 163.3,
+          "net_mb_upper_bound": 24.55,
+          "aoi_clear_pct_after_mask": 92.28,
+          "scl_class_pct": {
+            "2": 5.896,
+            "4": 42.809,
+            "5": 38.847,
+            "6": 10.762,
+            "7": 1.66,
+            "8": 0.018,
+            "9": 0.009
+          }
+        }
+      ],
+      "offset_decisions": [
+        {
+          "scene_id": "S2B_48PWU_20210115_0_L2A",
+          "processing_baseline": "02.14",
+          "earthsearch_boa_offset_applied": false,
+          "asset_offset_metadata": 0,
+          "dn_clear_red": {
+            "n": 83514,
+            "p01": 338.0,
+            "p05": 475.0,
+            "p50": 808.0,
+            "fraction_below_1000": 0.6315
+          },
+          "dn_offset_subtracted": 0,
+          "asset_offset_applied": false,
+          "metadata_conflict": false,
+          "basis": "5th percentile of clear red DN < 800: no +1000 offset in values"
+        },
+        {
+          "scene_id": "S2A_48PWU_20210219_0_L2A",
+          "processing_baseline": "02.14",
+          "earthsearch_boa_offset_applied": false,
+          "asset_offset_metadata": 0,
+          "dn_clear_red": {
+            "n": 83176,
+            "p01": 306.0,
+            "p05": 390.0,
+            "p50": 904.0,
+            "fraction_below_1000": 0.5558
+          },
+          "dn_offset_subtracted": 0,
+          "asset_offset_applied": false,
+          "metadata_conflict": false,
+          "basis": "5th percentile of clear red DN < 800: no +1000 offset in values"
+        }
+      ],
+      "composite_method": "per-pixel median of masked reflectance (2 scenes -> mean); SCL clear=(4, 5, 6); cloud/shadow/cirrus (3, 8, 9, 10) dilated 2 px (10 m)",
+      "n_obs_pct": {
+        "0": 2.617,
+        "1": 9.738,
+        "2": 87.646
+      },
+      "composite_valid_pct": 97.383,
+      "worldcover_tiles": [
+        "N09E105"
+      ],
+      "worldcover_unlabelled_pct": 0.0,
+      "temporal_consistency": {
+        "pixels_clear_in_both": 78881,
+        "median_abs_ndvi_diff": 0.0494,
+        "p95_abs_ndvi_diff": 0.3099,
+        "ndvi_pearson_r": 0.9302
+      },
+      "feature_table_rows": 87645,
+      "raster_bytes": 2826139,
+      "index_ranges": {
+        "NDVI": [
+          -0.589,
+          0.84
+        ],
+        "EVI": [
+          -0.138,
+          0.783
+        ],
+        "NDWI": [
+          -0.75,
+          0.718
+        ],
+        "NDBI": [
+          -0.69,
+          0.645
+        ]
+      }
+    }
+  }
+}

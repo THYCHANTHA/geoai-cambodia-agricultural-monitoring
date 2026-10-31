@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "GeoAI Cambodia: satellite-based agricultural and land-cover monitoring (research pilot)"
+type: software
+authors:
+  - family-names: Chantha
+    given-names: Thy
+repository-code: "https://github.com/THYCHANTHA/geoai-cambodia-agricultural-monitoring"
+license: MIT
+version: 0.0.1
+date-released: 2026-10-31
+abstract: >-
+  Pipeline for windowed Sentinel-2 reads, per-scene reflectance-offset audit, cloud masking,
+  dry-season compositing, spectral indices and WorldCover proxy labels in Kampong Cham, Cambodia.
+  Research pilot; no trained model and no accuracy claims.

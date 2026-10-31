@@ -8,7 +8,8 @@ version = "0.0.1"
 description = "Satellite-based agricultural and land-cover monitoring in Cambodia (research pilot)"
 requires-python = ">=3.11"
 dependencies = [
-  "numpy", "geopandas", "shapely", "pyproj", "rasterio", "pystac-client", "folium",
+  "numpy", "pandas", "pyarrow", "scipy", "matplotlib", "psutil",
+  "geopandas", "shapely", "pyproj", "rasterio", "pystac-client", "folium",
 ]
 
 [tool.setuptools.packages.find]

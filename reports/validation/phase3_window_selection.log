@@ -1,0 +1,5 @@
+coarse WorldCover read 1040x850 in 19s
+15698 candidate windows fully inside the province
+W2 top: [(1.0, 34.8), (1.0, 34.3), (1.0, 33.8), (1.0, 33.3), (1.0, 34.8), (1.0, 34.3)]
+W3 top: [(1.68, {'Tree cover': 0.3244, 'Grassland': 0.1267, 'Cropland': 0.1856, 'Bare/sparse vegetation': 0.0511, 'Permanent water bodies': 0.2378}), (1.67, {'Tree cover': 0.3311, 'Grassland': 0.13, 'Cropland': 0.1922, 'Permanent water bodies': 0.2244}), (1.67, {'Tree cover': 0.3622, 'Grassland': 0.1522, 'Cropland': 0.1622, 'Permanent water bodies': 0.1956, 'Herbaceous wetland': 0.0567})]
+done

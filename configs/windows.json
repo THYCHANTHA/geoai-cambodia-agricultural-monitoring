@@ -1,0 +1,69 @@
+{
+  "windows": [
+    {
+      "id": "W1",
+      "origin": [
+        531130,
+        1350190
+      ],
+      "role": "pilot (Phase 2): tree-cover dominant with cropland",
+      "fixed_scene": "S2A_48PWU_20210219_1_L2A",
+      "crs": "EPSG:32648",
+      "size_px": 300,
+      "pixel_m": 10,
+      "centre_lon_lat": [
+        105.29997,
+        12.20002
+      ]
+    },
+    {
+      "id": "W2",
+      "origin": [
+        539880,
+        1358610
+      ],
+      "role": "cropland-dominant (WorldCover 97% cropland)",
+      "dist_w1_km": 12.1,
+      "worldcover_10m": {
+        "Tree cover": 0.0125,
+        "Grassland": 0.0146,
+        "Cropland": 0.9703,
+        "Built-up": 0.0025,
+        "Bare/sparse vegetation": 0.0001
+      },
+      "crs": "EPSG:32648",
+      "size_px": 300,
+      "pixel_m": 10,
+      "centre_lon_lat": [
+        105.38051,
+        12.27607
+      ]
+    },
+    {
+      "id": "W3",
+      "origin": [
+        545380,
+        1323110
+      ],
+      "role": "mixed landscape (7 WorldCover classes incl. water and wetland)",
+      "dist_w1_km": 30.6,
+      "worldcover_10m": {
+        "Tree cover": 0.3083,
+        "Grassland": 0.1298,
+        "Cropland": 0.193,
+        "Built-up": 0.0412,
+        "Bare/sparse vegetation": 0.0493,
+        "Permanent water bodies": 0.2427,
+        "Herbaceous wetland": 0.0357
+      },
+      "crs": "EPSG:32648",
+      "size_px": 300,
+      "pixel_m": 10,
+      "centre_lon_lat": [
+        105.43057,
+        11.95496
+      ]
+    }
+  ],
+  "dry_season": "2021-01-01/2021-03-31"
+}

@@ -1,0 +1,277 @@
+{
+  "W2_candidates": [
+    {
+      "row": 235,
+      "col": 595,
+      "cx": 541376.9741702308,
+      "cy": 1357112.7952827723,
+      "frac": {
+        "Tree cover": 0.0122,
+        "Grassland": 0.0156,
+        "Cropland": 0.97,
+        "Built-up": 0.0022
+      },
+      "entropy": 0.161668538563226,
+      "dist_w1_km": 12.142202591671667,
+      "fine_10m_frac": {
+        "Tree cover": 0.0125,
+        "Grassland": 0.0146,
+        "Cropland": 0.9703,
+        "Built-up": 0.0025,
+        "Bare/sparse vegetation": 0.0001
+      },
+      "fine_origin": [
+        539880,
+        1358610
+      ],
+      "fine_unlabelled_pct": 0.0
+    },
+    {
+      "row": 360,
+      "col": 265,
+      "cx": 508376.97417023085,
+      "cy": 1344612.7952827723,
+      "frac": {
+        "Tree cover": 0.0133,
+        "Grassland": 0.01,
+        "Cropland": 0.97,
+        "Built-up": 0.0044,
+        "Bare/sparse vegetation": 0.0022
+      },
+      "entropy": 0.1703905353303963,
+      "dist_w1_km": 24.59646920524104,
+      "fine_10m_frac": {
+        "Tree cover": 0.0109,
+        "Grassland": 0.0123,
+        "Cropland": 0.972,
+        "Built-up": 0.0034,
+        "Bare/sparse vegetation": 0.001,
+        "Permanent water bodies": 0.0002,
+        "Herbaceous wetland": 0.0001
+      },
+      "fine_origin": [
+        506880,
+        1346110
+      ],
+      "fine_unlabelled_pct": 0.0
+    },
+    {
+      "row": 775,
+      "col": 330,
+      "cx": 514876.97417023085,
+      "cy": 1303112.7952827723,
+      "frac": {
+        "Tree cover": 0.0011,
+        "Grassland": 0.0122,
+        "Cropland": 0.97,
+        "Built-up": 0.0011,
+        "Bare/sparse vegetation": 0.0156
+      },
+      "entropy": 0.16319346236045784,
+      "dist_w1_km": 48.91162663518063,
+      "fine_10m_frac": {
+        "Tree cover": 0.0008,
+        "Grassland": 0.0126,
+        "Cropland": 0.9658,
+        "Built-up": 0.0012,
+        "Bare/sparse vegetation": 0.0195,
+        "Permanent water bodies": 0.0
+      },
+      "fine_origin": [
+        513380,
+        1304610
+      ],
+      "fine_unlabelled_pct": 0.0
+    },
+    {
+      "row": 195,
+      "col": 515,
+      "cx": 533376.9741702308,
+      "cy": 1361112.7952827723,
+      "frac": {
+        "Tree cover": 0.01,
+        "Grassland": 0.0133,
+        "Cropland": 0.9689,
+        "Built-up": 0.0022,
+        "Bare/sparse vegetation": 0.0022,
+        "Permanent water bodies": 0.0033
+      },
+      "entropy": 0.17989944670310842,
+      "dist_w1_km": 12.447555897390979
+    },
+    {
+      "row": 230,
+      "col": 605,
+      "cx": 542376.9741702308,
+      "cy": 1357612.7952827723,
+      "frac": {
+        "Tree cover": 0.0111,
+        "Grassland": 0.0089,
+        "Cropland": 0.9689,
+        "Built-up": 0.01,
+        "Bare/sparse vegetation": 0.0011
+      },
+      "entropy": 0.1761388521680102,
+      "dist_w1_km": 13.213447301338586
+    },
+    {
+      "row": 240,
+      "col": 600,
+      "cx": 541876.9741702308,
+      "cy": 1356612.7952827723,
+      "frac": {
+        "Tree cover": 0.0189,
+        "Grassland": 0.0122,
+        "Cropland": 0.9689
+      },
+      "entropy": 0.15937481242277926,
+      "dist_w1_km": 12.175842042597973
+    }
+  ],
+  "W3_candidates": [
+    {
+      "row": 590,
+      "col": 650,
+      "cx": 546876.9741702308,
+      "cy": 1321612.7952827723,
+      "frac": {
+        "Tree cover": 0.3244,
+        "Grassland": 0.1267,
+        "Cropland": 0.1856,
+        "Built-up": 0.0367,
+        "Bare/sparse vegetation": 0.0511,
+        "Permanent water bodies": 0.2378,
+        "Herbaceous wetland": 0.0378
+      },
+      "entropy": 1.6781691105996595,
+      "dist_w1_km": 30.592667368834196,
+      "fine_10m_frac": {
+        "Tree cover": 0.3083,
+        "Grassland": 0.1298,
+        "Cropland": 0.193,
+        "Built-up": 0.0412,
+        "Bare/sparse vegetation": 0.0493,
+        "Permanent water bodies": 0.2427,
+        "Herbaceous wetland": 0.0357
+      },
+      "fine_origin": [
+        545380,
+        1323110
+      ],
+      "fine_unlabelled_pct": 0.0
+    },
+    {
+      "row": 590,
+      "col": 645,
+      "cx": 546376.9741702308,
+      "cy": 1321612.7952827723,
+      "frac": {
+        "Tree cover": 0.3311,
+        "Grassland": 0.13,
+        "Cropland": 0.1922,
+        "Built-up": 0.0378,
+        "Bare/sparse vegetation": 0.0467,
+        "Permanent water bodies": 0.2244,
+        "Herbaceous wetland": 0.0378
+      },
+      "entropy": 1.674224524981551,
+      "dist_w1_km": 30.363101174195222,
+      "fine_10m_frac": {
+        "Tree cover": 0.3195,
+        "Grassland": 0.125,
+        "Cropland": 0.2008,
+        "Built-up": 0.0421,
+        "Bare/sparse vegetation": 0.047,
+        "Permanent water bodies": 0.229,
+        "Herbaceous wetland": 0.0365
+      },
+      "fine_origin": [
+        544880,
+        1323110
+      ],
+      "fine_unlabelled_pct": 0.0
+    },
+    {
+      "row": 585,
+      "col": 645,
+      "cx": 546376.9741702308,
+      "cy": 1322112.7952827723,
+      "frac": {
+        "Tree cover": 0.3622,
+        "Grassland": 0.1522,
+        "Cropland": 0.1622,
+        "Built-up": 0.0411,
+        "Bare/sparse vegetation": 0.03,
+        "Permanent water bodies": 0.1956,
+        "Herbaceous wetland": 0.0567
+      },
+      "entropy": 1.6676534056667025,
+      "dist_w1_km": 29.918109082477695,
+      "fine_10m_frac": {
+        "Tree cover": 0.3514,
+        "Grassland": 0.1467,
+        "Cropland": 0.1697,
+        "Built-up": 0.0463,
+        "Bare/sparse vegetation": 0.0297,
+        "Permanent water bodies": 0.2005,
+        "Herbaceous wetland": 0.0558
+      },
+      "fine_origin": [
+        544880,
+        1323610
+      ],
+      "fine_unlabelled_pct": 0.0
+    },
+    {
+      "row": 585,
+      "col": 650,
+      "cx": 546876.9741702308,
+      "cy": 1322112.7952827723,
+      "frac": {
+        "Tree cover": 0.3667,
+        "Grassland": 0.1456,
+        "Cropland": 0.1233,
+        "Built-up": 0.0478,
+        "Bare/sparse vegetation": 0.0333,
+        "Permanent water bodies": 0.2267,
+        "Herbaceous wetland": 0.0567
+      },
+      "entropy": 1.6643363211136353,
+      "dist_w1_km": 30.15106357820154
+    },
+    {
+      "row": 580,
+      "col": 645,
+      "cx": 546376.9741702308,
+      "cy": 1322612.7952827723,
+      "frac": {
+        "Tree cover": 0.3733,
+        "Grassland": 0.1311,
+        "Cropland": 0.1967,
+        "Built-up": 0.0478,
+        "Bare/sparse vegetation": 0.02,
+        "Permanent water bodies": 0.1567,
+        "Herbaceous wetland": 0.0744
+      },
+      "entropy": 1.6613891274859967,
+      "dist_w1_km": 29.47488064823424
+    },
+    {
+      "row": 695,
+      "col": 285,
+      "cx": 510376.97417023085,
+      "cy": 1311112.7952827723,
+      "frac": {
+        "Tree cover": 0.2122,
+        "Grassland": 0.2278,
+        "Cropland": 0.2422,
+        "Built-up": 0.0389,
+        "Bare/sparse vegetation": 0.0567,
+        "Permanent water bodies": 0.2167,
+        "Herbaceous wetland": 0.0056
+      },
+      "entropy": 1.6588265997705045,
+      "dist_w1_km": 43.67164041084053
+    }
+  ]
+}

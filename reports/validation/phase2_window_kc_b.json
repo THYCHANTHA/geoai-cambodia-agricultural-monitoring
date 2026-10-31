@@ -1,0 +1,181 @@
+{
+  "tag": "kc_b",
+  "lon": 105.3,
+  "lat": 12.2,
+  "window": "2021-01-01/2021-03-31",
+  "scenes_covering_point": 38,
+  "scene": {
+    "id": "S2A_48PWU_20210219_1_L2A",
+    "date": "2021-02-19T03:34:45.699000+00:00",
+    "scene_cloud_cover_pct": 0.000601,
+    "processing_baseline": "05.00",
+    "boa_offset_applied": true,
+    "epsg": 32648
+  },
+  "range_request": {
+    "file_bytes": 226305138,
+    "status": 206,
+    "bytes_returned": 4096,
+    "content_range": "bytes 0-4095/226305138",
+    "tiff_magic_ok": true
+  },
+  "grid": {
+    "crs": "EPSG:32648",
+    "size_px": [
+      300,
+      300
+    ],
+    "origin": [
+      531130,
+      1350190
+    ],
+    "pixel_m": 10
+  },
+  "s2_read_from_cache": true,
+  "seconds_read_s2": 0.0,
+  "dn_red": {
+    "p01_p50_p99": [
+      284.0,
+      531.0,
+      1678.0
+    ],
+    "pct_below_1000": 86.21,
+    "asset_scale_offset": [
+      0.0001,
+      -0.1
+    ]
+  },
+  "offset_mode": "none",
+  "alignment_test": {
+    "warped_equals_native_window": true,
+    "max_abs_diff_dn": 0.0,
+    "native_window_offset_px": [
+      3115,
+      4985
+    ]
+  },
+  "scl_pixel_counts": {
+    "4": 73885,
+    "5": 15723,
+    "7": 392
+  },
+  "clear_pixel_pct": 99.56,
+  "reflectance_range_masked": {
+    "blue": [
+      0.0186,
+      0.3132
+    ],
+    "green": [
+      0.0376,
+      0.3212
+    ],
+    "red": [
+      0.0221,
+      0.3776
+    ],
+    "nir": [
+      0.0592,
+      0.5356
+    ],
+    "swir16": [
+      0.0502,
+      0.4788
+    ]
+  },
+  "indices": {
+    "ndvi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        0.121,
+        0.704,
+        0.863
+      ],
+      "outside_pm1_pct": 0.0
+    },
+    "evi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        0.051,
+        0.46,
+        0.692
+      ],
+      "outside_pm1_pct": 0.0
+    },
+    "ndwi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        -0.749,
+        -0.648,
+        -0.331
+      ],
+      "outside_pm1_pct": 0.0
+    },
+    "ndbi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        -0.43,
+        -0.161,
+        0.231
+      ],
+      "outside_pm1_pct": 0.0
+    }
+  },
+  "worldcover": {
+    "tiles": [
+      "N12E105"
+    ],
+    "seconds": 2.1,
+    "pct_unlabelled_nodata": 0.0,
+    "classes_in_aoi": {
+      "Tree cover": {
+        "pixels": 67560,
+        "pct_of_aoi": 75.07,
+        "clear_pixels": 67425,
+        "mean_ndvi": 0.711,
+        "mean_ndwi": -0.66,
+        "mean_ndbi": -0.201
+      },
+      "Shrubland": {
+        "pixels": 24,
+        "pct_of_aoi": 0.03,
+        "clear_pixels": 24,
+        "mean_ndvi": 0.667,
+        "mean_ndwi": -0.621,
+        "mean_ndbi": -0.137
+      },
+      "Grassland": {
+        "pixels": 4762,
+        "pct_of_aoi": 5.29,
+        "clear_pixels": 4758,
+        "mean_ndvi": 0.559,
+        "mean_ndwi": -0.566,
+        "mean_ndbi": -0.08
+      },
+      "Cropland": {
+        "pixels": 17106,
+        "pct_of_aoi": 19.01,
+        "clear_pixels": 16854,
+        "mean_ndvi": 0.321,
+        "mean_ndwi": -0.465,
+        "mean_ndbi": 0.043
+      },
+      "Built-up": {
+        "pixels": 508,
+        "pct_of_aoi": 0.56,
+        "clear_pixels": 508,
+        "mean_ndvi": 0.294,
+        "mean_ndwi": -0.4,
+        "mean_ndbi": 0.06
+      },
+      "Bare/sparse vegetation": {
+        "pixels": 40,
+        "pct_of_aoi": 0.04,
+        "clear_pixels": 39,
+        "mean_ndvi": 0.061,
+        "mean_ndwi": -0.172,
+        "mean_ndbi": 0.071
+      }
+    }
+  },
+  "output_tif_bytes": 1406198
+}

@@ -1,0 +1,181 @@
+{
+  "tag": "kc_a",
+  "lon": 105.2,
+  "lat": 12.0,
+  "window": "2021-01-01/2021-03-31",
+  "scenes_covering_point": 38,
+  "scene": {
+    "id": "S2A_48PWU_20210219_1_L2A",
+    "date": "2021-02-19T03:34:45.699000+00:00",
+    "scene_cloud_cover_pct": 0.000601,
+    "processing_baseline": "05.00",
+    "boa_offset_applied": true,
+    "epsg": 32648
+  },
+  "range_request": {
+    "file_bytes": 226305138,
+    "status": 206,
+    "bytes_returned": 4096,
+    "content_range": "bytes 0-4095/226305138",
+    "tiff_magic_ok": true
+  },
+  "grid": {
+    "crs": "EPSG:32648",
+    "size_px": [
+      300,
+      300
+    ],
+    "origin": [
+      520270,
+      1328060
+    ],
+    "pixel_m": 10
+  },
+  "seconds_read_s2": 459.5,
+  "alignment_test": {
+    "warped_equals_native_window": true,
+    "max_abs_diff": 0.0,
+    "native_window_offset_px": [
+      2029,
+      7198
+    ]
+  },
+  "scl_pixel_counts": {
+    "4": 53414,
+    "5": 36184,
+    "6": 262,
+    "7": 140
+  },
+  "clear_pixel_pct": 99.84,
+  "reflectance_range_masked": {
+    "blue": [
+      -0.0839,
+      0.0802
+    ],
+    "green": [
+      -0.0599,
+      0.1486
+    ],
+    "red": [
+      -0.0841,
+      0.23
+    ],
+    "nir": [
+      -0.0554,
+      0.5016
+    ],
+    "swir16": [
+      -0.0853,
+      0.4466
+    ]
+  },
+  "indices": {
+    "ndvi": {
+      "valid_pct": 99.84,
+      "p01_p50_p99": [
+        0.236,
+        1.03,
+        1.932
+      ],
+      "outside_pm1_pct": 51.44
+    },
+    "evi": {
+      "valid_pct": 99.84,
+      "p01_p50_p99": [
+        0.084,
+        0.342,
+        0.757
+      ],
+      "outside_pm1_pct": 0.0
+    },
+    "ndwi": {
+      "valid_pct": 99.84,
+      "p01_p50_p99": [
+        -1.776,
+        -1.04,
+        -0.543
+      ],
+      "outside_pm1_pct": 54.922
+    },
+    "ndbi": {
+      "valid_pct": 99.84,
+      "p01_p50_p99": [
+        -0.607,
+        -0.107,
+        0.337
+      ],
+      "outside_pm1_pct": 0.217
+    }
+  },
+  "worldcover": {
+    "tile": "N12E105",
+    "seconds": 3.5,
+    "classes_in_aoi": {
+      "0": {
+        "pixels": 45000,
+        "pct_of_aoi": 50.0,
+        "clear_pixels": 44996,
+        "mean_ndvi": 1.07,
+        "mean_ndwi": -1.064,
+        "mean_ndbi": -0.153
+      },
+      "Tree cover": {
+        "pixels": 7248,
+        "pct_of_aoi": 8.05,
+        "clear_pixels": 7245,
+        "mean_ndvi": 1.596,
+        "mean_ndwi": -1.26,
+        "mean_ndbi": -0.397
+      },
+      "Shrubland": {
+        "pixels": 29,
+        "pct_of_aoi": 0.03,
+        "clear_pixels": 29,
+        "mean_ndvi": 1.658,
+        "mean_ndwi": -1.361,
+        "mean_ndbi": -0.547
+      },
+      "Grassland": {
+        "pixels": 1377,
+        "pct_of_aoi": 1.53,
+        "clear_pixels": 1377,
+        "mean_ndvi": 1.261,
+        "mean_ndwi": -1.196,
+        "mean_ndbi": -0.21
+      },
+      "Cropland": {
+        "pixels": 35385,
+        "pct_of_aoi": 39.32,
+        "clear_pixels": 35347,
+        "mean_ndvi": 0.754,
+        "mean_ndwi": -0.934,
+        "mean_ndbi": 0.035
+      },
+      "Bare/sparse vegetation": {
+        "pixels": 81,
+        "pct_of_aoi": 0.09,
+        "clear_pixels": 81,
+        "mean_ndvi": 0.193,
+        "mean_ndwi": -0.505,
+        "mean_ndbi": 0.183
+      },
+      "Permanent water bodies": {
+        "pixels": 33,
+        "pct_of_aoi": 0.04,
+        "clear_pixels": 33,
+        "mean_ndvi": 0.997,
+        "mean_ndwi": -0.756,
+        "mean_ndbi": 0.241
+      },
+      "Herbaceous wetland": {
+        "pixels": 847,
+        "pct_of_aoi": 0.94,
+        "clear_pixels": 752,
+        "mean_ndvi": 1.135,
+        "mean_ndwi": -1.387,
+        "mean_ndbi": 0.092
+      }
+    }
+  },
+  "output_tif_bytes": 1404890
+}

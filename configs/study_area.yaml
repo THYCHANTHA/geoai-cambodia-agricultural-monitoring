@@ -1,0 +1,13 @@
+# Study area configuration (pilot). Expand by adding provinces; do not edit code.
+province: Kampong Cham            # geoBoundaries ADM1 shapeName (ISO KH-3), post-split boundary
+boundary_source: geoBoundaries gbOpen KHM ADM1 (year represented 2017; ODbL 1.0 as reported by the API)
+crs_processing: EPSG:32648        # WGS 84 / UTM 48N (the Sentinel-2 tile CRS used for the pilot)
+pilot_aoi:
+  tag: kc_b
+  centre_lon_lat: [105.30, 12.20]
+  size_m: 3000
+  sentinel2_date_window: "2021-01-01/2021-03-31"   # dry season, same year as WorldCover 2021
+  selected_scene: S2A_48PWU_20210219_1_L2A
+stac_primary: https://earth-search.aws.element84.com/v1
+stac_fallback: https://stac.dataspace.copernicus.eu/v1
+worldcover: ESA WorldCover 2021 v200 (s3://esa-worldcover/v200/2021/map, public HTTPS mirror used)

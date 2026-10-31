@@ -1,0 +1,183 @@
+stage: scene chosen S2A_48PWU_20210219_1_L2A
+stage: range request done {'file_bytes': 226305138, 'status': 206, 'bytes_returned': 4096, 'content_range': 'bytes 0-4095/226305138', 'tiff_magic_ok': True}
+stage: S2 read done 254.0
+{
+  "tag": "kc_b",
+  "lon": 105.3,
+  "lat": 12.2,
+  "window": "2021-01-01/2021-03-31",
+  "scenes_covering_point": 38,
+  "scene": {
+    "id": "S2A_48PWU_20210219_1_L2A",
+    "date": "2021-02-19T03:34:45.699000+00:00",
+    "scene_cloud_cover_pct": 0.000601,
+    "processing_baseline": "05.00",
+    "boa_offset_applied": true,
+    "epsg": 32648
+  },
+  "range_request": {
+    "file_bytes": 226305138,
+    "status": 206,
+    "bytes_returned": 4096,
+    "content_range": "bytes 0-4095/226305138",
+    "tiff_magic_ok": true
+  },
+  "grid": {
+    "crs": "EPSG:32648",
+    "size_px": [
+      300,
+      300
+    ],
+    "origin": [
+      531130,
+      1350190
+    ],
+    "pixel_m": 10
+  },
+  "seconds_read_s2": 254.0,
+  "dn_red": {
+    "p01_p50_p99": [
+      284.0,
+      531.0,
+      1678.0
+    ],
+    "pct_below_1000": 86.21,
+    "asset_scale_offset": [
+      0.0001,
+      -0.1
+    ]
+  },
+  "offset_mode": "metadata",
+  "alignment_test": {
+    "warped_equals_native_window": true,
+    "max_abs_diff_dn": 0.0,
+    "native_window_offset_px": [
+      3115,
+      4985
+    ]
+  },
+  "scl_pixel_counts": {
+    "4": 73885,
+    "5": 15723,
+    "7": 392
+  },
+  "clear_pixel_pct": 99.56,
+  "reflectance_range_masked": {
+    "blue": [
+      -0.0814,
+      0.2132
+    ],
+    "green": [
+      -0.0624,
+      0.2212
+    ],
+    "red": [
+      -0.0779,
+      0.2776
+    ],
+    "nir": [
+      -0.0408,
+      0.4356
+    ],
+    "swir16": [
+      -0.0498,
+      0.3788
+    ]
+  },
+  "indices": {
+    "ndvi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        0.41,
+        1.531,
+        2.246
+      ],
+      "outside_pm1_pct": 86.139
+    },
+    "evi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        0.05,
+        0.444,
+        0.668
+      ],
+      "outside_pm1_pct": 0.0
+    },
+    "ndwi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        -4.954,
+        -1.393,
+        6.019
+      ],
+      "outside_pm1_pct": 97.077
+    },
+    "ndbi": {
+      "valid_pct": 99.56,
+      "p01_p50_p99": [
+        -0.655,
+        -0.263,
+        0.356
+      ],
+      "outside_pm1_pct": 0.011
+    }
+  },
+  "worldcover": {
+    "tiles": [
+      "N12E105"
+    ],
+    "seconds": 2.0,
+    "pct_unlabelled_nodata": 0.0,
+    "classes_in_aoi": {
+      "Tree cover": {
+        "pixels": 67560,
+        "pct_of_aoi": 75.07,
+        "clear_pixels": 67425,
+        "mean_ndvi": 1.563,
+        "mean_ndwi": 194077257355.466,
+        "mean_ndbi": -0.32
+      },
+      "Shrubland": {
+        "pixels": 24,
+        "pct_of_aoi": 0.03,
+        "clear_pixels": 24,
+        "mean_ndvi": 1.838,
+        "mean_ndwi": -1.652,
+        "mean_ndbi": -0.213
+      },
+      "Grassland": {
+        "pixels": 4762,
+        "pct_of_aoi": 5.29,
+        "clear_pixels": 4758,
+        "mean_ndvi": 1.274,
+        "mean_ndwi": -1.308,
+        "mean_ndbi": -0.124
+      },
+      "Cropland": {
+        "pixels": 17106,
+        "pct_of_aoi": 19.01,
+        "clear_pixels": 16854,
+        "mean_ndvi": 0.972,
+        "mean_ndwi": -2876659898459.244,
+        "mean_ndbi": 0.066
+      },
+      "Built-up": {
+        "pixels": 508,
+        "pct_of_aoi": 0.56,
+        "clear_pixels": 508,
+        "mean_ndvi": 0.811,
+        "mean_ndwi": -1.324,
+        "mean_ndbi": 0.113
+      },
+      "Bare/sparse vegetation": {
+        "pixels": 40,
+        "pct_of_aoi": 0.04,
+        "clear_pixels": 39,
+        "mean_ndvi": 0.18,
+        "mean_ndwi": -0.614,
+        "mean_ndbi": 0.167
+      }
+    }
+  },
+  "output_tif_bytes": 1403716
+}

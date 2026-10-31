@@ -1,0 +1,46 @@
+{
+  "window_origin": [
+    531130,
+    1350190
+  ],
+  "size_px": 300,
+  "band": "red (B04)",
+  "items": {
+    "old_0214": {
+      "id": "S2A_48PWU_20210219_0_L2A",
+      "baseline": "02.14",
+      "boa_offset_applied": false,
+      "asset_scale": 0.0001,
+      "asset_offset": 0,
+      "dn_p01_p50_p99": [
+        294.0,
+        539.0,
+        1672.0
+      ],
+      "seconds": 43.0
+    },
+    "new_0500": {
+      "id": "S2A_48PWU_20210219_1_L2A",
+      "baseline": "05.00",
+      "boa_offset_applied": true,
+      "asset_scale": 0.0001,
+      "asset_offset": -0.1,
+      "dn_p01_p50_p99": [
+        284.0,
+        531.0,
+        1678.0
+      ],
+      "seconds": 0.0
+    }
+  },
+  "pixels_compared": 90000,
+  "median_dn_new_minus_old": -8.0,
+  "p05_p95_dn_new_minus_old": [
+    -122.0,
+    111.0
+  ],
+  "pearson_r": 0.9654098281239476,
+  "median_ratio_new_over_old": 0.9856115107913669,
+  "conclusion_rule": "offset present in new COG iff median(new-old) is within 200 DN of +1000; absent iff within 200 DN of 0; else ambiguous",
+  "conclusion": "NO_OFFSET_IN_VALUES"
+}

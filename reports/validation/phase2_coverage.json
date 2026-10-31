@@ -1,0 +1,69 @@
+{
+  "stac": "https://earth-search.aws.element84.com/v1",
+  "window": "2021-01-01/2021-03-31",
+  "grid_cell_m": 200.0,
+  "crs": "EPSG:32648",
+  "scl_clear_classes": [
+    4,
+    5,
+    6
+  ],
+  "provinces": {
+    "Kampong Cham": {
+      "area_km2": 4543.9,
+      "items_searched_cloud_lt_70": 134,
+      "read_failures": 0,
+      "acquisition_dates": 18,
+      "mgrs_tiles": [
+        "MGRS-48PVT",
+        "MGRS-48PVU",
+        "MGRS-48PWT",
+        "MGRS-48PWU"
+      ],
+      "pct_pixels_observed_by_any_scene": 100.0,
+      "pct_pixels_with_ge1_clear": 100.0,
+      "pct_pixels_with_ge3_clear": 100.0,
+      "pct_pixels_with_ge5_clear": 99.9,
+      "median_clear_obs_per_pixel": 25.0,
+      "seconds": 1058.5
+    },
+    "Battambang": {
+      "area_km2": 12138.3,
+      "items_searched_cloud_lt_70": 283,
+      "read_failures": 0,
+      "acquisition_dates": 17,
+      "mgrs_tiles": [
+        "MGRS-47PRP",
+        "MGRS-47PRQ",
+        "MGRS-47PRR",
+        "MGRS-48PTA",
+        "MGRS-48PTU",
+        "MGRS-48PTV",
+        "MGRS-48PUU",
+        "MGRS-48PUV"
+      ],
+      "pct_pixels_observed_by_any_scene": 100.0,
+      "pct_pixels_with_ge1_clear": 100.0,
+      "pct_pixels_with_ge3_clear": 100.0,
+      "pct_pixels_with_ge5_clear": 99.9,
+      "median_clear_obs_per_pixel": 27.0,
+      "seconds": 2223.8
+    },
+    "Prey Veng": {
+      "area_km2": 4761.6,
+      "items_searched_cloud_lt_70": 61,
+      "read_failures": 0,
+      "acquisition_dates": 16,
+      "mgrs_tiles": [
+        "MGRS-48PWT",
+        "MGRS-48PWU"
+      ],
+      "pct_pixels_observed_by_any_scene": 100.0,
+      "pct_pixels_with_ge1_clear": 100.0,
+      "pct_pixels_with_ge3_clear": 100.0,
+      "pct_pixels_with_ge5_clear": 100.0,
+      "median_clear_obs_per_pixel": 19.0,
+      "seconds": 558.9
+    }
+  }
+}

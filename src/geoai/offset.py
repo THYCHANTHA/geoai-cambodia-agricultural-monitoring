@@ -7,14 +7,25 @@ checked (`reports/validation/offset_audit_pair_20210219.json`: same acquisition,
 vs 05.00, median DN difference -8, not +1000). So the decision is taken per scene from the
 data, with the metadata kept as recorded evidence, and the audit refuses to guess.
 
-Physical bound used (not a plausibility judgement): with a +1000 offset, DN < 1000 means
-negative reflectance, which cannot hold for the majority of clear land pixels.
+Physical bound used (not a plausibility judgement of NDVI): with a +1000 offset, DN < 1000
+means negative reflectance, so the dark end of the distribution (dense vegetation, water,
+shadow) cannot sit well below 1000. Rule on clear red-band DN: 5th percentile < 800 -> no
+offset in the values; 1st percentile in [900, 1250] (dark targets at ~0 reflectance) AND baseline
+>= 04.00 -> +1000 offset present; anything else is refused (for example a window made only of
+bright bare soil, whose low percentiles are high without any offset).
 """
 from __future__ import annotations
 
 import numpy as np
 
 DN_OFFSET_ESA = 1000  # BOA_ADD_OFFSET magnitude for processing baseline >= 04.00
+
+
+def _major(baseline: str) -> int:
+    try:
+        return int(str(baseline).split(".")[0])
+    except ValueError:
+        return -1
 
 
 class AmbiguousOffsetError(ValueError):
@@ -29,19 +40,19 @@ def audit_scene(*, scene_id: str, baseline: str, boa_offset_applied, asset_offse
     if v.size < 100:
         raise AmbiguousOffsetError(f"{scene_id}: only {v.size} valid clear pixels to audit")
     frac_below = float((v < DN_OFFSET_ESA).mean())
-    p01 = float(np.percentile(v, 1))
-    if frac_below >= 0.5:
-        dn_offset, basis = 0, "majority of clear red DN below 1000: no +1000 offset in values"
-    elif p01 >= 0.9 * DN_OFFSET_ESA:
-        dn_offset, basis = DN_OFFSET_ESA, "1st percentile of clear red DN >= 900: +1000 offset present"
+    p01, p05 = (float(np.percentile(v, q)) for q in (1, 5))
+    if p05 < 800:
+        dn_offset, basis = 0, "5th percentile of clear red DN < 800: no +1000 offset in values"
+    elif 900 <= p01 <= 1250 and _major(baseline) >= 4:
+        dn_offset, basis = DN_OFFSET_ESA, "1st percentile of clear red DN in [900, 1250], baseline >= 04.00"
     else:
         raise AmbiguousOffsetError(
-            f"{scene_id}: fraction DN<1000 = {frac_below:.2f}, p01 = {p01:.0f}; neither pattern")
+            f"{scene_id}: p01 = {p01:.0f}, p05 = {p05:.0f}; neither pattern")
     return {
         "scene_id": scene_id, "processing_baseline": baseline,
         "earthsearch_boa_offset_applied": boa_offset_applied,
         "asset_offset_metadata": asset_offset,
-        "dn_clear_red": {"n": int(v.size), "p01": p01, "p50": float(np.median(v)),
+        "dn_clear_red": {"n": int(v.size), "p01": p01, "p05": p05, "p50": float(np.median(v)),
                          "fraction_below_1000": round(frac_below, 4)},
         "dn_offset_subtracted": dn_offset,
         "asset_offset_applied": False,  # never blindly apply the metadata offset

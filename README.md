@@ -1,6 +1,6 @@
 # GeoAI Cambodia: satellite-based agricultural and land-cover monitoring
 
-**Status: research pilot (Phase 3 of 6). A labelled, spatially separated dry-season dataset has been built and
+**Status: IN PROGRESS, checkpointed and resumable (deferred, not cancelled); see `docs/PHASE3_RESUME.md`. Research pilot (Phase 3 of 6). A labelled, spatially separated dry-season dataset has been built and
 quality-checked. No model has been trained, there is no dashboard yet, and no accuracy figure exists.**
 GitHub Actions has never run for this repository (the account was billing-locked when it was published), so the CI
 workflow is untested.

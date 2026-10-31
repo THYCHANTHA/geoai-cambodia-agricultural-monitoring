@@ -1,0 +1,90 @@
+{
+  "files": [
+    {
+      "path": "data/processed/features_all.parquet",
+      "bytes": 13256849,
+      "sha256": "50dd0ce025d82325d6b07420d713eebdc67a61692242323db5a6f30188de113d",
+      "load_check": "ok: 265593 rows x 20 cols"
+    },
+    {
+      "path": "data/processed/features_W1.tif",
+      "bytes": 2838523,
+      "sha256": "d1eac3a7990092c2be6e80a7dc54b784d2b6ce093d41f02e31b63d1dec21f1f9",
+      "load_check": "ok: 11 bands 300x300 EPSG:32648"
+    },
+    {
+      "path": "data/processed/features_W2.tif",
+      "bytes": 2788289,
+      "sha256": "353986b4ef3e769072d61afac1a969fd4ad191584deb1e3b749748ebe7f34bf1",
+      "load_check": "ok: 11 bands 300x300 EPSG:32648"
+    },
+    {
+      "path": "data/processed/features_W3.tif",
+      "bytes": 2826139,
+      "sha256": "cd99860ad8ab0164f69ab85bb86fae0f402a3e34c815da6d0a482f78eb40aa23",
+      "load_check": "ok: 11 bands 300x300 EPSG:32648"
+    },
+    {
+      "path": "data/processed/pilot_kc_a.tif",
+      "bytes": 1404890,
+      "sha256": "6a78b6901a302bb803e072d20fb82c44877aa6c05da96ca94e1dc62f1f5d2df0",
+      "load_check": "ok: 5 bands 300x300 EPSG:32648"
+    },
+    {
+      "path": "data/processed/pilot_kc_b.tif",
+      "bytes": 1406198,
+      "sha256": "39b45b3f2b16867878d988acdd12497a71ba65394dcd479aa5b3e784573b124d",
+      "load_check": "ok: 5 bands 300x300 EPSG:32648"
+    },
+    {
+      "path": "data/raw/cache_kc_b_S2A_48PWU_20210219_1_L2A.npz",
+      "bytes": 674885,
+      "sha256": "0809043d083a684402a9e9c3ec6122314166f6ec8d5ff4c561e48a6841b42699",
+      "load_check": "ok: scl(300, 300), blue(300, 300), green(300, 300), red(300, 300), nir(300, 300), swir16(300, 300)"
+    },
+    {
+      "path": "data/raw/cache_W1_S2B_48PWU_20210105_0_L2A.npz",
+      "bytes": 689005,
+      "sha256": "0069135421bcf24d447af75a435ed1b13c4edde7e766be435ef4197e5e51bac3",
+      "load_check": "ok: origin(2,), B02(300, 300), B03(300, 300), B04(300, 300), B08(300, 300), B11(300, 300), scl(300, 300)"
+    },
+    {
+      "path": "data/raw/cache_W2_S2A_48PWU_20210110_0_L2A.npz",
+      "bytes": 710803,
+      "sha256": "4fd6dcd34d5a1f15ce60263db1c26919022007804ce4a344f10107730527849e",
+      "load_check": "ok: origin(2,), B02(300, 300), B03(300, 300), B04(300, 300), B08(300, 300), B11(300, 300), scl(300, 300)"
+    },
+    {
+      "path": "data/raw/cache_W2_S2A_48PWU_20210219_0_L2A.npz",
+      "bytes": 696697,
+      "sha256": "4f8d9d62cb830d72449db0b5a89f0fdd87f0691b56f5dadd38e4a931e18ffe00",
+      "load_check": "ok: origin(2,), B02(300, 300), B03(300, 300), B04(300, 300), B08(300, 300), B11(300, 300), scl(300, 300)"
+    },
+    {
+      "path": "data/raw/cache_W3_S2A_48PWU_20210219_0_L2A.npz",
+      "bytes": 743857,
+      "sha256": "5a418d1e32d4ef1d78dc0bcff7fd7690bc81f9cf28db658038e95fdb0179c473",
+      "load_check": "ok: origin(2,), B02(300, 300), B03(300, 300), B04(300, 300), B08(300, 300), B11(300, 300), scl(300, 300)"
+    },
+    {
+      "path": "data/raw/cache_W3_S2B_48PWU_20210115_0_L2A.npz",
+      "bytes": 724878,
+      "sha256": "26106d204cdb91ae49388415cbb35232b3cf9a19e9f894bfa5a49c5163d37a61",
+      "load_check": "ok: origin(2,), B02(300, 300), B03(300, 300), B04(300, 300), B08(300, 300), B11(300, 300), scl(300, 300)"
+    },
+    {
+      "path": "data/raw/geoBoundaries-KHM-ADM1.geojson",
+      "bytes": 2313831,
+      "sha256": "e057f5378e3e01e55b8ff6c91c97d665d7636de1b903cce4ba7d318f1e653b28",
+      "load_check": "ok: 25 features"
+    },
+    {
+      "path": "data/raw/wc_coarse_100m.npy",
+      "bytes": 7072128,
+      "sha256": "2b47c0b0236317500c2ad6fcd956f574858fd96ed74583cfd6c749d509439adf",
+      "load_check": "ok: array(850, 1040)"
+    }
+  ],
+  "total_bytes": 38146972,
+  "failed": []
+}
